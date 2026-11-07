@@ -1,0 +1,22 @@
+MiMotion Desktop 1.0.0
+
+Based on mimotion-run by xunichanghuan and contributors:
+https://github.com/xunichanghuan/mimotion-run
+
+The upstream project is licensed under the Apache License, Version 2.0.
+The complete license is included as LICENSE and in the application's About window.
+
+This modified desktop edition adds a Tkinter GUI, input validation, a background
+worker, cancellation checkpoints, local non-password settings, error handling,
+and Windows executable packaging. Its desktop_core.py adapts the upstream
+login and submission protocol. assets/band_template.json is derived from the
+payload in upstream main.py. Step selection uses the input range directly,
+instead of the upstream hour-based scaling. Unnecessary external time services
+and notification integrations are omitted.
+
+Upstream revision used:
+f038d289cc588e51ce357cb851302e0618f8c167
+
+This public repository contains the adapted desktop edition. It does not
+redistribute upstream Git history, the original main.py, or GitHub Actions
+workflows. Refer to the upstream repository for those original files.
